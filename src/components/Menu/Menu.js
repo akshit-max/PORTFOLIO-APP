@@ -2,7 +2,7 @@ import React from 'react';
 import './Menu.css';
 import { FaHome } from "react-icons/fa";
 import { FcAbout, FcGraduationCap, FcServices, FcBusinessman, FcSupport, FcPhone } from "react-icons/fc";
-import Zoom from "react-reveal/Zoom";
+import { Fade, Zoom, Slide, Bounce, Rotate, LightSpeed} from "react-awesome-reveal";
 import { Link } from "react-scroll";
 
 const Menu = ({ toggle }) => {

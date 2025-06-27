@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tech.css";
-import RubberBand from "react-reveal/RubberBand";
+
 // import Fade from "react-reveal/Fade";
 import { Fade, Zoom, Slide, Bounce, Rotate, LightSpeed} from "react-awesome-reveal";
 
