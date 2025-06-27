@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  background: 	#0F172A !important;
+  /* background-image: none !important; */
+  color: #F8F9FA;
+}

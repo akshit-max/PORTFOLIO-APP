@@ -1,0 +1,33 @@
+.about-box {
+   background-color: 	#1E293B;
+  color: 	#F8FAFC;                      /* Light text */
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #D0E7F5;           /* Gold border */
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.1); /* soft gold glow */
+  transition: transform 0.3s ease;
+   background-color: 	#1E293B;
+    box-shadow: 10px 20px 30px	rgba(0, 0, 0, 0.3);
+    border: 2px solid #334155;
+}
+@media (max-width: 600px) {
+ .about-box{
+  width: 90% !important;
+  margin-left: 20px !important;
+ }
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+}
+
+.text-gold {
+  color: 	#F8FAFC;
+}
+.ttt{
+    color: 		#CBD5E1;
+}
+.fs-5 {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}

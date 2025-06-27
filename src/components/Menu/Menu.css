@@ -1,0 +1,136 @@
+.navbar-profile-pic img {
+    height: 120px;
+    width: 120px;
+    border-radius: 600px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+
+  
+  transition: transform 0.3s ease;
+}
+.navbar-profile-pic  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+  
+  /* transition: transform 0.3s ease; */
+}
+
+
+/* .photo img{
+height: 120px;
+width: 120px;
+border-radius: 600px;
+}
+.photo {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+} */
+ 
+
+
+.navbar-profile-pic img:hover {
+    transform: scale(1.05);
+}
+.nav-link{
+    color: aliceblue;
+     /* display: flex;
+    gap: 10px;
+    align-items: center; 
+    justify-content: center;  */
+    margin-top: 10px;
+    
+    
+    
+}
+.flexer{
+    color: aliceblue;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    transition: transform 0.3s ease;
+    padding: 2px;
+   
+}
+.flexerr{
+    color: aliceblue;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+    
+    transition: transform 0.3s ease;
+    padding: 2px;
+   
+}
+.major{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    
+}
+.flexer:hover {
+    background-color: 		#2563EB;
+    border-radius: 10px;
+    transform: scale(1.10);
+    /* padding: 1px; */
+     margin: 0 15px;
+     cursor: pointer;
+    
+     
+}
+
+
+.nav-link {
+  margin-top: 20px;
+  cursor: pointer;
+ 
+}
+
+.nav-link svg {
+  margin-right: 10px;
+}
+.nav-link:hover {
+  color: #f29f67;
+}
+.nav-link p {
+  color: white;
+  text-decoration: none;
+}
+.nav-link svg {
+  color: white;
+  text-decoration: none;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link .active {
+  color: #f29f67;
+  border-left: 5px solid #f29f67;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .major {
+    display: none;
+  }
+  .navbar-profile-pic{
+    display: none;
+  }
+}

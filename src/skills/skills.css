@@ -1,0 +1,70 @@
+.skills-section {
+  color: 	#CBD5E1;
+  background-color: #121c2b;
+  padding: 50px;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in;
+}
+.skill-section:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 600px) {
+ .skills-section{
+  width: 90% !important;
+ }
+}
+.skills-section h2 {
+  color: 	#F8FAFC;
+  font-weight: bold;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  background-color: #2a3b4c;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.skill-level {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: width 1s ease-in-out;
+}
+
+.skill-level.html {
+  width: 90%;
+  background-color: #e34c26;
+}
+
+.skill-level.css {
+  width: 85%;
+  background-color: #2965f1;
+}
+
+.skill-level.js {
+  width: 80%;
+  background-color: #f0db4f;
+  color: #000;
+}
+
+.skill-level.react {
+  width: 75%;
+  background-color: #61dafb;
+  color: #000;
+}

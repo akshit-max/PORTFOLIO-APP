@@ -1,0 +1,112 @@
+.mobile-nav {
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Make sure it's above other elements */
+  background-color: #0a192f; /* Deep navy blue background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  /* margin-bottom: 20000px; */
+}
+/* @media (max-width: 600px) {
+ .mobile-nav{
+  width: 95% !important;
+  margin: auto !important;
+ }
+} */
+.txt{
+    color: white;
+    font-size: larger;
+}
+.mobile-nav-header {
+  height: 60px;
+  width: 100%;
+  background-color: #112240; /* Slightly lighter than body */
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  /* justify-content: space-between; */
+}
+
+.mobile-nav-header .mobile-nav-icon {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+.mobile-nav-header .mobile-nav-icon:hover {
+  transform: scale(1.1);
+  color: #64ffda; /* Professional accent color (soft cyan) */
+}
+
+.mobile-nav-title {
+  color: #64ffda;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mobile-nav-menu .nav-items {
+  width: 230px;
+  background-color: #112240;
+  padding: 12px 20px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-nav-menu .nav-items .nav-link {
+  color: #ccd6f6;
+  padding: 10px 0;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav-menu .nav-items .nav-link:hover {
+  color: #64ffda;
+  padding-left: 10px;
+}
+
+@media (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.nav-link {
+  margin-top: 20px;
+  cursor: pointer;
+ 
+}
+
+.nav-link svg {
+  margin-right: 10px;
+}
+.nav-link:hover {
+  color: #f29f67;
+}
+.nav-link p {
+  color: white;
+  text-decoration: none;
+}
+.nav-link svg {
+  color: white;
+  text-decoration: none;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link .active {
+  color: #f29f67;
+  border-left: 5px solid #f29f67;
+  padding-left: 10px;
+  text-decoration: none;
+}
