@@ -12,11 +12,9 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center pp">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia a
-          odit ab, eligendi cupiditate, minima quasi excepturi modi et quo
-          delectus, iusto dolor atque aliquam aspernatur eveniet! Ipsam eum
-          nobis omnis id voluptatibus quas eos maxime ipsum facere numquam,
-          voluptate qui et animi doloribus nulla eius molestiae unde tempore ad
+        I am passionate about developing scalable web and mobile applications. 
+            Below are some of my recent projects involving Full-stack development, 
+            Mobile UI/UX, and AI integration using the MERN stack and React Native.
         </p>
         {/* card design */}
         <div className="row" id="ads">
@@ -39,12 +37,12 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Techinfoyt Shopping Website
+                      SnapCart Shopping Website
                     </h6>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://snapcart-ecommerce-app-1.onrender.com/"
                   >
                     View
                   </a>
@@ -54,7 +52,7 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Mobile App</span>
+                  <span className="card-notify-badge">TODO Mobile App</span>
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356D-1YtSagN4-_ZdjZ5H9o6PKUO4h12dvw&usqp=CAU"
                     alt="project2"
@@ -67,11 +65,11 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Coding App</h5>
+                    <h5 className="text-uppercase">TODO APP</h5>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/akshit-max/React-Native-To-Do-task-App"
                   >
                     View
                   </a>
@@ -81,7 +79,7 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Backend</span>
+                  <span className="card-notify-badge">AI Chatbot</span>
                   <img
                     src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
                     alt="project1"
@@ -95,7 +93,7 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Job Portal</h5>
+                    <h5 className="text-uppercase">AI Chatbot</h5>
                   </div>
                   <a className="ad-btn" href="view">
                     View
