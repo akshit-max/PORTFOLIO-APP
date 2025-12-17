@@ -27,24 +27,11 @@ const Education = () => {
             iconStyle={{ background: "	#3B82F6", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">MCA</h3>
+            <h3 className="vertical-timeline-element-title">Btech</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              IIT Mumbai, IN
+              KIET, Ghaziabad
             </h4>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "white" }}
-            contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2017 - 2020"
-            iconStyle={{ background: "	#3B82F6", color: "#fff" }}
-            icon={<MdSchool />}
-          >
-            <h3 className="vertical-timeline-element-title">BCA</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              IIT Mumbai, IN
-            </h4>
-          </VerticalTimelineElement>
+         
         </VerticalTimeline>
       </div>
       </div>
