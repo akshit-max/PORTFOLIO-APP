@@ -7,6 +7,7 @@ import {
 import { Fade, Zoom, Slide, Bounce, Rotate, LightSpeed} from "react-awesome-reveal";
 import "react-vertical-timeline-component/style.min.css";
 import "./Work.css";
+
 const WorkExp = () => {
   return (
     <>
@@ -20,65 +21,65 @@ const WorkExp = () => {
           <VerticalTimeline lineColor="#1e1e2c">
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentStyle={{ background: "white", color: "white" }} // RESTORED TO WHITE
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2023 - present"
+              date="2024 - present"
               iconStyle={{ background: "#3B82F6", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                DSA Coordinator
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                MLSA KIET
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Leading technical workshops, mentoring students in problem-solving, 
+                and coordinating coding contests for the campus community.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentStyle={{ background: "white", color: "white" }} // RESTORED TO WHITE
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2020 - 2022"
+              date="2024 - present"
               iconStyle={{ background: "#3B82F6", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                NSS Volunteer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                NSS KIET
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Managing community outreach programs, organizing blood donation camps, 
+                and leading team-based social welfare initiatives.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentStyle={{ background: "white", color: "white" }} // RESTORED TO WHITE
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2018 - 2020"
+              date="2024 - present"
               iconStyle={{ background: "#3B82F6", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                Member
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                AWS Cloud Club KIET
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Collaborating on cloud projects, exploring AWS infrastructure, 
+                and participating in cloud computing technical sessions.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
